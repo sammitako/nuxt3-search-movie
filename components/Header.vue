@@ -3,14 +3,14 @@
     <Logo />
     <div class="nav nav-pills">
       <div v-for="nav in navigations" :key="nav.name" class="nav-item">
-        <RouterLink
+        <NuxtLink
           class="nav-link"
           :to="nav.href"
           active-class="active"
           :class="{ active: isMatch(nav.path) }"
         >
           {{ nav.name }}
-        </RouterLink>
+        </NuxtLink>
       </div>
     </div>
     <div class="user" @click="toAbout">

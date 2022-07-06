@@ -1,5 +1,5 @@
 <template>
-  <NustLink to="/" class="logo"> <span>OMDbAPI</span>.COM </NustLink>
+  <NuxtLink to="/" class="logo"> <span>OMDbAPI</span>.COM </NuxtLink>
 </template>
 
 <style lang="scss" scoped>
