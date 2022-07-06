@@ -11,5 +11,8 @@ export default defineNuxtConfig({
       presets: ["@babel/preset-env"],
       plugins: [["@babel/plugin-transform-runtime"]],
     },
+    postcss: {
+      plugins: [require("autoprefixer")],
+    },
   },
 });
