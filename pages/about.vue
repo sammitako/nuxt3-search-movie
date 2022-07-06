@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-/* @import "~/scss/main"; */
+/* @import "~/assets/main"; */
 .about {
   text-align: center;
   .photo {
