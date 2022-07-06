@@ -6,4 +6,10 @@ export default defineNuxtConfig({
   styleResources: {
     scss: ["~/assets/main.scss"],
   },
+  build: {
+    bable: {
+      presets: ["@babel/preset-env"],
+      plugins: [["@babel/plugin-transform-runtime"]],
+    },
+  },
 });
